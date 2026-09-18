@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Application"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Enter the job application details"
+            android:textColor="@color/gray"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/etApplicantName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="22dp"
+            android:hint="Applicant Name"
+            android:padding="15dp"
+            android:background="@drawable/bg_edittext"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/etCompanyName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:hint="Company Name"
+            android:padding="15dp"
+            android:background="@drawable/bg_edittext"
+            android:importantForAutofill="no"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/etJobRole"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:hint="Job Role"
+            android:padding="15dp"
+            android:background="@drawable/bg_edittext"
+            android:importantForAutofill="no"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="Employment Type"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/rgEmployment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbFullTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Time"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/rbPartTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part Time"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/rbInternship"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Internship"
+                android:textSize="16sp"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Application Status"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/rgStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbApplied"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Applied"
+                android:textSize="16sp"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/rbInterview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interview"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/rbSelected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selected"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/rbRejected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rejected"
+                android:textSize="16sp"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSaveApplication"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="25dp"
+            android:text="Save Application"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_blue_button"/>
+
+    </LinearLayout>
+
+</ScrollView>
