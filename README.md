@@ -126,24 +126,28 @@ Add the actual screenshots of the working application inside the `screenshots` f
 
 Displays all previously added job applications.
 
+<img width="720" height="1600" alt="WhatsApp Image 2026-09-18 at 8 15 40 PM" src="https://github.com/user-attachments/assets/e88cfa8a-080d-4af1-986e-a378f1a431d6" />
 ![Job Dashboard](screenshots/dashboard.png)
 
 ### 2. Add Application
 
 Allows the user to enter applicant, company, job role, employment type, and application status.
 
+<img width="720" height="1600" alt="WhatsApp Image 2026-09-18 at 8 15 39 PM (2)" src="https://github.com/user-attachments/assets/bdc7f932-a8be-44ef-b2c9-5c4a2d5ce327" />
 ![Add Application](screenshots/add_application.png)
 
 ### 3. Dashboard with Saved Application
 
 Displays the newly saved job application on the dashboard.
 
+<img width="720" height="1600" alt="WhatsApp Image 2026-09-18 at 8 15 40 PM" src="https://github.com/user-attachments/assets/88b4286a-93f4-4ebd-a7ed-b17569a09413" />
 ![Saved Application](screenshots/saved_application.png)
 
 ### 4. Job Details
 
 Displays complete information about the selected job application.
 
+<img width="720" height="1600" alt="WhatsApp Image 2026-09-18 at 8 15 39 PM" src="https://github.com/user-attachments/assets/3a0fca3c-db4b-4a2e-9e65-9b58900464d0" />
 ![Job Details](screenshots/job_details.png)
 
 ### 5. Update Status
@@ -156,13 +160,9 @@ Allows the user to update the current application status.
 
 Notification generated after the application status is updated.
 
+<img width="720" height="1600" alt="WhatsApp Image 2026-09-18 at 8 21 19 PM" src="https://github.com/user-attachments/assets/1f862dc2-69cd-428b-9cca-dc8add510e6c" />
+<img width="720" height="1600" alt="WhatsApp Image 2026-09-18 at 8 21 14 PM" src="https://github.com/user-attachments/assets/385603bf-9af8-426d-976f-25825961dc32" />
 ![Notification](screenshots/notification.png)
-
-### 7. Activity and Fragment Lifecycle Logcat
-
-Displays Activity and Fragment lifecycle method execution in Logcat.
-
-![Lifecycle Logcat](screenshots/logcat.png)
 
 ## 🧪 Testing Workflow
 
